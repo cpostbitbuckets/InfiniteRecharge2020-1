@@ -64,6 +64,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     compile project(':NerdyLib')
 
+    // we only use this for tests, not for deploying to the robot
+    testImplementation 'com.github.cpostbitbuckets.FRCSim:simulator:master-SNAPSHOT'
+    testImplementation 'com.github.cpostbitbuckets.FRCSim:simulator-ctre:master-SNAPSHOT'
+    testImplementation 'com.github.cpostbitbuckets.FRCSim:simulator-rev:master-SNAPSHOT'
+
+
     // Enable simulation gui support. Must check the box in vscode to enable support
     // upon debugging
     simulation wpi.deps.sim.gui(wpi.platforms.desktop, false)

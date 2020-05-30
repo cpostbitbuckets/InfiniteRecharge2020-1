@@ -29,9 +29,9 @@ public class Indexer extends SingleMotorMechanism {
    */
   public Indexer() {
     super(RobotMap.kIndex, "Indexer", false, false);
-    timeOfFlight1 = new TimeOfFlight(RobotMap.kTimeOfFlightSensorID1);
-    timeOfFlight2 = new TimeOfFlight(RobotMap.kTimeOfFlightSensorID2);
-    timeOfFlight3 = new TimeOfFlight(RobotMap.kTimeOfFlightSensorID3);
+    // timeOfFlight1 = new TimeOfFlight(RobotMap.kTimeOfFlightSensorID1);
+    // timeOfFlight2 = new TimeOfFlight(RobotMap.kTimeOfFlightSensorID2);
+    // timeOfFlight3 = new TimeOfFlight(RobotMap.kTimeOfFlightSensorID3);
     ultrasonic = new VexUltrasonic("Ultrasonic", 6, 7);
     super.configPIDF(IndexerConstants.kP, IndexerConstants.kI, IndexerConstants.kD, IndexerConstants.kF);
     super.configDeadband(IndexerConstants.kDeadband);

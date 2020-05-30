@@ -1,0 +1,284 @@
+hideFollowers: true
+remapXboxController: true
+driveBase:
+  gearRatio: 10.88888888888889
+  positionalSimType: Physics
+  showAllSims: false
+  radius: 0.30353879642132
+  wheelRadius: 0.0762
+  ssAc:
+  - - -7.087195478354283
+    - 0.413285738104402
+  - - 0.339280393075371
+    - -6.832080740045777
+  ssBc:
+  - - 2.702895517197959
+    - -0.241632861263366
+  - - -0.126961060623545
+    - 2.551095849721741
+transmissions:
+- motors:
+  - id: 20
+    name: Left Drive (20)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: true
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  - id: 19
+    name: Left Drive Follower (19)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: true
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 9
+    name: Right Drive (9)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: true
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  - id: 15
+    name: Right Drive Follower (15)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: true
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 4
+    name: Hood (4)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 5
+    name: Climber (5)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 2
+    name: Climber (2)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 14
+    name: Indexer (14)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 21
+    name: Shooter (21)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 11
+    name: Shooter (11)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 12
+    name: Feeder (12)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 1
+    name: Feeder (1)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 13
+    name: Top Hopper Roller (13)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+- motors:
+  - id: 10
+    name: Intake Roller (10)
+    model: BAG
+    kt: 0.0
+    kv: 0.0
+    resistance: 0.0
+    inertia: 0.0
+    leftDrive: false
+    rightDrive: false
+    stallTorque: 0.4
+    stallCurrent: 53.0
+    voltage: 12.0
+    maxRPM: 13180
+    mass: 0.32
+    diameter: 0.0404
+    encoderCountsPerRevolution: 1024
+  gearRatio: 1.0
+  efficiency: 1.0
+solenoids: []
+startPosition:
+  x: 1.54
+  y: 5.43
+  heading: 0.0
